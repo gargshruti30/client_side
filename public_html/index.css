@@ -1,0 +1,40 @@
+/* Style the list items */
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 20px 18px 20px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+    background: aliceblue;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+    background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+    background: #888;
+    color: #fff;
+}
+ul li:nth-child(even) {
+    background: lightgray;
+}
+button
+{
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    padding: 12px 16px 12px 16px;
+}
+button:hover {
+    background-color: #f44336;
+    color: white;
+}

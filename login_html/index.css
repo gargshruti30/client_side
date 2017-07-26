@@ -1,0 +1,59 @@
+#div1
+{
+    border-style: double;
+    padding: 12px;
+    margin: 10px;
+    background: #D3D3D3;
+
+}
+
+#email,#password{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+#login{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border:none;
+    width: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+}
+#login:hover {background-color: #3e8e41}
+
+#login:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#cancel{
+    background-color: #f44336;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 50%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+}
+#cancel:hover {background-color: #8B0000}
+
+#cancel:active {
+    background-color: #8B0000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#image1
+{
+
+    border-radius: 50%;
+    border: solid;
+    border-color: black;
+    margin-left: 175px;
+}
